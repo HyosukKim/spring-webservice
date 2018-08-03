@@ -15,4 +15,9 @@ public class WebRestController {
     public String cak_hello() {
         return "CAK AO BU";
     }
+    
+    @GetMapping("/ao_hello")
+    public String ao_hello() {
+        return "AO BU";
+    }
 }
